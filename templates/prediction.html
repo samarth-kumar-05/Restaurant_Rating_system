@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/static/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/static/css/shared.css">
+    <link rel="stylesheet" href="/static/css/pred.css">
+    <title>Predict Now</title>
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <a href="/">RATINGZ</a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="/predict">Predict Rating</a></li>
+                <li><a href="/aboutus">Abouts Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Get the Rating For Your Restaurant In 3 Easy Steps</h2>
+    <section id="variables">
+        <form action="/predict" method="POST">
+            <div class="steps">
+                <h3>STEP 1 </h3>
+                <Label>Number Of Votes : </Label>
+                <input type="number" id="votes" name="votes">
+            </div>
+            <div class="steps">
+                <h3>STEP 2 </h3>
+                <Label>Average Cost for two : </Label>
+                <input type="number" id="cost" name="cost">
+            </div>
+            <div class="steps">
+                <h3>STEP 3 </h3>
+                <Label>Price Range : </Label>
+                <input type="number" id="range" name="range">
+                <p id="inst">The range is between 1 to 5 so please enter the correct range only</p>
+            </div>
+            <div id="btn">
+                <a href="/result"><button type="submit" id="submit-btn">SUBMIT</button></a>
+            </div>
+        </form>
+    </section>
+    </main>
+</body>
+</html>

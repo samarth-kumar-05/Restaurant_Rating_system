@@ -1,0 +1,56 @@
+header a:hover{
+    color: blue;
+}
+.steps{
+    background-color: rgba(70, 72, 75, 0.979);
+    width: 50%;
+    padding: 24px;
+    margin:40px auto;
+    height: 100%;
+    border-radius: 40px;
+}
+
+.steps h3{
+    text-align: center;
+    color: rgb(215, 185, 104);
+    font-size: 24px;
+}
+
+.steps label{
+    margin-left: 20%;
+    font-size: 20px;
+    color: rgb(255, 234, 182);
+}
+
+.steps input{
+    width: 80px;
+    border:2px solid rgb(215, 185, 104);
+    margin-left: 40px;
+}
+#btn{
+    margin-left: 32%;
+}
+#submit-btn{
+    width: 54%;
+    margin:6px auto;
+    background-color: rgba(70, 72, 75, 0.979);
+    padding: 10px;
+    color: rgb(215, 185, 104);
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 50px;
+}
+
+#inst{
+    color: rgb(215, 185, 104);
+    text-align: center;
+    margin-top: 25px;
+}
+
+#votes{
+    margin-left: 70px;
+}
+
+#range{
+    margin-left: 110px;
+}
