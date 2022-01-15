@@ -332,3 +332,4 @@ FunctionGeneratePrediction(314,1100,3)
 
 filename = 'PredictorScaler.pkl'
 pickle.dump(PredictorScaler,open(filename,'wb'))
+
